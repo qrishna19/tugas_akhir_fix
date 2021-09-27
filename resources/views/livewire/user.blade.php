@@ -14,7 +14,7 @@
                         <table class="table-lg">
                             <tbody>
                                 <tr>
-                                    <td>ID</td>
+                                    <td style="width: 150px;">ID</td>
                                     <td>:</td>
                                     <td>{{$users->id}}</td>
                                 </tr>
@@ -29,7 +29,7 @@
                                     <td>{{$users->email}}</td>
                                 </tr>
                                 <tr>
-                                    <td>Tipe Users</td>
+                                    <td>Tipe User</td>
                                     <td>:</td>
                                     <td>{{$users->role->nama_role}}</td>
                                 </tr>
